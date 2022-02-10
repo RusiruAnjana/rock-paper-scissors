@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+body{
+    background-color:#142850;
+    color: white;
+}
+
+header{
+    background-color: #27496D;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+
+.btn{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin: 5px;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background-color: #00A8CC;
+    color: #27496D;
+    border: 10px solid #27496D; /* Green */
+    transition-duration: 0.5s;
+}
+
+.btn:hover{
+    background-color: #27496D;
+    color: #00A8CC;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 10px solid #00A8CC; /* Green */
+}
+
+#reset{
+    margin-top: 50px;
+    margin: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 5%;
+    background-color: transparent;
+    color: #00A8CC;
+    border: 1px solid #00A8CC; /* Green */
+    transition-duration: 0.4s;
+}
+
+#reset:hover{
+    background-color: transparent;
+    color: #00A8CC;
+    border: 2px solid #00A8CC; /* Green */
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#button-container{
+    margin: 20px;
+}
+
+#scores, #selections{
+    transition-duration: 0.4s;
+    margin: 10px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.score-cards{
+    background-color: #00A8CC;
+    color: #27496D;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+#instructions{
+    margin: 20px;
+    font-size: 0.6rem;
+    letter-spacing: 0.5rem;
+}
+
+.selection{
+    font-size: 1rem;
+    color: white;
+    /* background-color: #003c49; */
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
